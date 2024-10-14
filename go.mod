@@ -2,7 +2,14 @@ module firewall-windows-agent
 
 go 1.22.4
 
+require github.com/google/gopacket v1.1.19
+
 require (
-	github.com/google/gopacket v1.1.19
+	github.com/go-ole/go-ole v1.2.6 // indirect
+	github.com/yusufpapurcu/wmi v1.2.4 // indirect
+)
+
+require (
+	github.com/shirou/gopsutil v3.21.11+incompatible
 	golang.org/x/sys v0.26.0 // indirect
 )
